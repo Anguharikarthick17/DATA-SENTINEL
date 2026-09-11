@@ -57,6 +57,8 @@ fi
 LAST_CHANGE_TIME=0
 CHANGES_PENDING=false
 
+PREV_CHANGES=""
+
 while true; do
     CHANGES="$(get_git_changes)"
     NOW="$(date +%s)"
@@ -65,13 +67,16 @@ while true; do
         if [ "${CHANGES_PENDING}" = false ]; then
             CHANGES_PENDING=true
             LAST_CHANGE_TIME="${NOW}"
+            PREV_CHANGES="${CHANGES}"
             echo ""
             echo "[$(date +'%Y-%m-%d %H:%M:%S')] Changes detected in repository:"
             echo "${CHANGES}" | sed 's/^/  /'
             echo "Waiting ${DEBOUNCE_SECONDS}s debounce period for activity to settle..."
-        else
-            # If changes were already pending, update the last change timestamp if changes modified
+        elif [ "${CHANGES}" != "${PREV_CHANGES}" ]; then
+            # Content of changes changed; reset debounce clock
             LAST_CHANGE_TIME="${NOW}"
+            PREV_CHANGES="${CHANGES}"
+            echo "[$(date +'%Y-%m-%d %H:%M:%S')] Additional modifications detected. Resetting ${DEBOUNCE_SECONDS}s debounce window..."
         fi
     fi
 
