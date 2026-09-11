@@ -1,0 +1,101 @@
+customer_id,order_id,product,category,amount,status,region,quantity
+C001,O1001,Enterprise License,Billing,4500.00,Complete,North,1
+C002,O1002,Cloud Storage Pro,Infrastructure,299.00,Complete,East,3
+C003,O1003,Support Package,Billing,1200.00,Pending,West,1
+C004,O1004,Analytics Dashboard,Analytics,850.00,Complete,South,2
+C005,O1005,Enterprise License,Billing,4500.00,Complete,North,1
+C006,O1006,API Gateway,Infrastructure,450.00,Failed,East,1
+C007,O1007,Data Pipeline,Billing,3200.00,Complete,West,2
+C008,O1008,ML Workbench,Analytics,2100.00,Complete,South,1
+C009,O1009,Enterprise License,Billing,4500.00,Complete,North,1
+C010,O1010,Cloud Storage Pro,Infrastructure,299.00,Pending,East,5
+C011,O1011,Support Package,Billing,1200.00,Complete,West,1
+C012,O1012,Analytics Dashboard,Analytics,850.00,Complete,South,2
+C013,O1013,Enterprise License,Billing,4500.00,Failed,North,1
+C014,O1014,Data Pipeline,Billing,3200.00,Complete,East,1
+C015,O1015,API Gateway,Infrastructure,450.00,Complete,West,2
+C016,O1016,ML Workbench,Analytics,2100.00,Complete,South,1
+C017,O1017,Enterprise License,Billing,4500.00,Complete,North,1
+C018,O1018,Cloud Storage Pro,Infrastructure,299.00,Complete,East,4
+C019,O1019,Support Package,Billing,1200.00,Pending,West,1
+C020,O1020,Analytics Dashboard,Analytics,850.00,Complete,South,3
+C021,O1021,Enterprise License,Billing,4500.00,Complete,North,1
+C022,O1022,Data Pipeline,Billing,3200.00,Complete,East,2
+C023,O1023,API Gateway,Infrastructure,450.00,Complete,West,1
+C024,O1024,ML Workbench,Analytics,2100.00,Failed,South,1
+C025,O1025,Enterprise License,Billing,4500.00,Complete,North,1
+C026,O1026,Cloud Storage Pro,Infrastructure,299.00,Complete,East,2
+C027,O1027,Support Package,Billing,1200.00,Complete,West,1
+C028,O1028,Analytics Dashboard,Analytics,850.00,Complete,South,2
+C029,O1029,Enterprise License,Billing,4500.00,Complete,North,1
+C030,O1030,Data Pipeline,Billing,3200.00,Complete,East,1
+C031,O1031,API Gateway,Infrastructure,450.00,Complete,West,3
+C032,O1032,ML Workbench,Analytics,2100.00,Complete,South,1
+C033,O1033,Enterprise License,Billing,4500.00,Pending,North,1
+C034,O1034,Cloud Storage Pro,Infrastructure,299.00,Complete,East,6
+C035,O1035,Support Package,Billing,1200.00,Complete,West,1
+C036,O1036,Analytics Dashboard,Analytics,850.00,Complete,South,2
+C037,O1037,Enterprise License,Billing,4500.00,Complete,North,1
+C038,O1038,Data Pipeline,Billing,3200.00,Failed,East,1
+C039,O1039,API Gateway,Infrastructure,450.00,Complete,West,2
+C040,O1040,ML Workbench,Analytics,2100.00,Complete,South,1
+C041,O1041,Enterprise License,Billing,4500.00,Complete,North,1
+C042,O1042,Cloud Storage Pro,Infrastructure,299.00,Complete,East,3
+C043,O1043,Support Package,Billing,1200.00,Complete,West,1
+C044,O1044,Analytics Dashboard,Analytics,850.00,Complete,South,4
+C045,O1045,Enterprise License,Billing,4500.00,Complete,North,1
+C046,O1046,Data Pipeline,Billing,3200.00,Complete,East,2
+C047,O1047,API Gateway,Infrastructure,450.00,Pending,West,1
+C048,O1048,ML Workbench,Analytics,2100.00,Complete,South,1
+C049,O1049,Enterprise License,Billing,4500.00,Complete,North,1
+C050,O1050,Cloud Storage Pro,Infrastructure,299.00,Complete,East,2
+C051,O1051,Support Package,Billing,1200.00,Complete,West,1
+C052,O1052,Analytics Dashboard,Analytics,850.00,Failed,South,2
+C053,O1053,Enterprise License,Billing,4500.00,Complete,North,1
+C054,O1054,Data Pipeline,Billing,3200.00,Complete,East,1
+C055,O1055,API Gateway,Infrastructure,450.00,Complete,West,2
+C056,O1056,ML Workbench,Analytics,99999.00,Complete,South,1
+C057,O1057,Enterprise License,Billing,4500.00,Complete,North,1
+C058,O1058,Cloud Storage Pro,Infrastructure,299.00,Complete,East,3
+C059,O1059,Support Package,Billing,1200.00,Complete,West,1
+C060,O1060,Analytics Dashboard,Analytics,850.00,Complete,South,2
+C061,O1061,Enterprise License,Billing,4500.00,Complete,North,1
+C062,O1062,Data Pipeline,Billing,3200.00,Pending,East,1
+C063,O1063,API Gateway,Infrastructure,450.00,Complete,West,1
+C064,O1064,ML Workbench,Analytics,2100.00,Complete,South,2
+C065,O1065,Enterprise License,Billing,4500.00,Complete,North,1
+C066,O1066,Cloud Storage Pro,Infrastructure,299.00,Failed,East,4
+C067,O1067,Support Package,Billing,,Complete,West,1
+C068,O1068,Analytics Dashboard,Analytics,850.00,Complete,South,2
+C069,O1069,Enterprise License,Billing,4500.00,Complete,North,1
+C070,O1070,Data Pipeline,Billing,3200.00,Complete,East,1
+C071,O1071,API Gateway,Infrastructure,450.00,Complete,West,2
+C072,O1072,ML Workbench,Analytics,2100.00,Complete,South,1
+C073,O1073,Enterprise License,Billing,4500.00,Complete,North,1
+C074,O1074,Cloud Storage Pro,Infrastructure,299.00,Complete,East,3
+C075,,Support Package,Billing,1200.00,Complete,West,1
+C076,O1076,Analytics Dashboard,Analytics,850.00,Complete,South,2
+C077,O1077,Enterprise License,Billing,4500.00,Complete,North,1
+C078,O1078,Data Pipeline,Billing,3200.00,Complete,East,1
+C079,O1079,API Gateway,Infrastructure,450.00,Complete,West,2
+C080,O1080,ML Workbench,Analytics,2100.00,Complete,South,1
+C081,O1081,Enterprise License,Billing,4500.00,Pending,North,1
+C082,O1082,Cloud Storage Pro,Infrastructure,299.00,Complete,East,5
+C083,O1083,Support Package,Billing,1200.00,Complete,West,1
+C084,O1084,Analytics Dashboard,Analytics,850.00,Complete,South,2
+C085,O1085,Enterprise License,Billing,4500.00,Complete,North,1
+C086,O1086,Data Pipeline,Billing,3200.00,Failed,East,1
+C087,O1087,API Gateway,Infrastructure,450.00,Complete,West,1
+C088,O1088,ML Workbench,Analytics,2100.00,Complete,South,2
+C089,O1089,Enterprise License,Billing,4500.00,Complete,North,1
+C090,O1090,Cloud Storage Pro,Infrastructure,299.00,Complete,East,2
+C091,O1091,Support Package,Billing,1200.00,Complete,West,1
+C092,O1092,Analytics Dashboard,Analytics,,Complete,South,2
+C093,O1093,Enterprise License,Billing,4500.00,Complete,North,1
+C094,O1094,Data Pipeline,Billing,3200.00,Complete,East,1
+C095,O1095,API Gateway,Infrastructure,450.00,Complete,West,3
+C096,O1096,ML Workbench,Analytics,2100.00,Complete,South,1
+C097,O1097,Enterprise License,Billing,4500.00,Complete,North,1
+C098,O1098,Cloud Storage Pro,Infrastructure,299.00,Pending,East,2
+C099,O1099,Support Package,Billing,1200.00,Complete,West,1
+C100,O1100,Analytics Dashboard,Analytics,850.00,Complete,South,2
